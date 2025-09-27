@@ -207,11 +207,17 @@ const App = () => {
     };
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(dataToSend),
-      });
+      const response = await fetch('https://plantapp-2.onrender.com/predict', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(dataToSend),
+});
+
+      // const response = await fetch('http://127.0.0.1:5000/predict', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify(dataToSend),
+      // });
 
       if (!response.ok) throw new Error('Network error');
       const data = await response.json();
