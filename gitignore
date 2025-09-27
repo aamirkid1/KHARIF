@@ -11,6 +11,12 @@
 .env.production
 .env.development
 
+# Ignore root-level Node files (we only want react-app)
+/package.json
+/package-lock.json
+/postcss.config.js
+/tailwind.config.js
+
 # OS files
 .DS_Store
 Thumbs.db
