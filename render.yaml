@@ -3,7 +3,7 @@ services:
     name: plant-app
     env: python
     plan: free
-    buildCommand: "pip install -r flask-api/requirements.txt"
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:app -w 4 -b 0.0.0.0:$PORT --chdir flask-api"
     envVars:
       - key: PYTHON_VERSION
