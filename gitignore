@@ -1,0 +1,18 @@
+# Gitignore for the entire project
+
+# Flask backend dependencies and environment files
+/flask-api/__pycache__/
+/flask-api/venv/
+*.pyc
+
+# React frontend dependencies and build output
+/react-app/node_modules/
+/react-app/dist/
+/react-app/build/
+.env.local
+.env.production
+.env.development
+
+# OS generated files
+.DS_Store
+Thumbs.db
