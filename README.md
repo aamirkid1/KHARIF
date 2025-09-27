@@ -32,6 +32,20 @@ npm start
 
 ## Deployment
 - **Backend**: Render (Gunicorn + Flask)  
-- **Frontend**: Vercel (React build)  
+- **Frontend**: Vercel (React build)
+
+
+## Team Members
+
+**Leader:**  
+- [Mohd Aaqib](https://github.com/aamirkid1)
+
+**Members:**  
+- [Abida Argawan](https://github.com/abida-username)  
+- [Isna Fatmi](https://github.com/isna-username)  
+- [Nahid Parveen Khanam](https://github.com/nahid-username)  
+- [Saima Eqbal](https://github.com/saima-username)  
+- [Wardah Tanveer](https://github.com/wardah-username)  
+
 
 
