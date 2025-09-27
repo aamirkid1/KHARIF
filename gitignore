@@ -1,18 +1,16 @@
-# Gitignore for the entire project
-
-# Flask backend dependencies and environment files
+# Flask backend
 /flask-api/__pycache__/
 /flask-api/venv/
 *.pyc
 
-# React frontend dependencies and build output
+# React frontend dependencies (but NOT build inside flask-api)
 /react-app/node_modules/
 /react-app/dist/
-/react-app/build/
+/react-app/build/   # ignore only React’s own build
 .env.local
 .env.production
 .env.development
 
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
