@@ -42,10 +42,10 @@ npm start
 
 **Members:**  
 - [Abida Argawan](https://github.com/aby-TT)  
-- [Isna Fatmi](https://github.com/isna-username)  
-- [Nahid Parveen Khanam](https://github.com/nahid-username)  
-- [Saima Eqbal](https://github.com/saima-username)  
-- [Wardah Tanveer](https://github.com/wardah-username)  
+- [Isna Fatmi](https://github.com/IsnaFatmi)  
+- [Nahid Parveen Khanam](https://github.com/Nahidkhanam)  
+- [Saima Eqbal](https://github.com/SaimaEqbal)  
+- [Wardah Tanveer](https://github.com/WardahTanveer)  
 
 
 
